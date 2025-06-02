@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  color: #374151;
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-gray-800 mb-4;
+  }
+  
+  .section-title-highlight {
+    @apply text-purple-600;
+  }
+  
+  .section-divider {
+    @apply h-1 w-20 bg-teal-500 mx-auto mb-6;
+  }
+  
+  .section-description {
+    @apply text-gray-600 max-w-2xl mx-auto;
+  }
+}
