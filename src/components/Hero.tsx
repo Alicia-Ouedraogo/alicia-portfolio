@@ -81,7 +81,7 @@ const Hero = () => {
               <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-teal-500 rounded-lg blur opacity-30"></div>
               <div className="relative bg-white p-6 rounded-lg shadow-xl">
                 <img 
-                  src="/WhatsApp Image 2025-06-02 à 01.05.30_7feb7fc2.jpg" 
+                   src="/image.jpg"
                   alt="Alicia Lise Marion Ouedraogo" 
                   className="w-full h-auto rounded-lg object-cover"
                 />
